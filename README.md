@@ -1,65 +1,75 @@
-# My Personal Portfolio ⚡️
+# Sheraj's Personal Portfolio ⚡️  
+Live Site: [sherajportfolio.github.io](https://sherajportfolio.github.io)
 
-## A clean, beautiful and responsive portfolio website built with React!
+## 🌐 A Clean, Beautiful, and Responsive Portfolio Website Built with React!
 
 This is my personal portfolio website showcasing my skills, projects, and experience. Feel free to explore and get in touch!
 
-## Table of Contents
-- [Sections](#sections)
+---
+
+## 📑 Table of Contents
+- [Portfolio Sections](#portfolio-sections)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
-- [Linking portfolio to GitHub](#linking-portfolio-to-github)
+- [Linking Portfolio to GitHub](#linking-portfolio-to-github)
 - [Change and Customize](#change-and-customize-every-section-according-to-your-need)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
+- [License](#license)
 
-## Portfolio Sections
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Open Source Projects Connected with GitHub\
-✔️ Big Projects\
-✔️ Achievements And Certifications 🏆\
-✔️ Blogs\
-✔️ Talks\
-✔️ Podcast\
-✔️ Contact me\
-✔️ Twitter Timeline\
-✔️ GitHub Profile
+---
 
-## Getting Started
+## 🧩 Portfolio Sections
+✔️ Summary and About Me  
+✔️ Skills  
+✔️ Education  
+✔️ Work Experience  
+✔️ Open Source Projects Connected with GitHub  
+✔️ Big Projects  
+✔️ Achievements and Certifications 🏆  
+✔️ Blogs  
+✔️ Talks  
+✔️ Podcast  
+✔️ Contact Me  
+✔️ Twitter Timeline  
+✔️ GitHub Profile  
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+---
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+## 🚀 Getting Started
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
+These instructions will help you get a copy of the project running locally for development and testing.
+
+### Prerequisites
+
+Install the following:
+
+- [Git](https://git-scm.com)
+- [Node.js & npm](https://nodejs.org/en/download/)
+
+```bash
+node@v10.16.0 or higher  
+npm@6.9.0 or higher  
 git@2.17.1 or higher
-```
+
 
 ## How To Use 
 
-From your command line, clone and run the portfolio:
-
-```bash
 # Clone this repository
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/sherajsharif/sherajportfolio.github.io.git
 
-# Go into the repository
-cd YOUR_REPO_NAME
+# Go into the repo
+cd sherajportfolio.github.io
 
-# Setup default environment variables
+# Copy environment template
 cp env.example .env
 
 # Install dependencies
 npm install
 
-# Start a local dev server
+# Start development server
 npm start
-```
+
 
 ## Linking Portfolio to GitHub
 
@@ -128,4 +138,12 @@ This will build your project and deploy it to the `gh-pages` branch, making it a
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details. 
+This project is licensed under the MIT License. - see the [LICENSE](LICENSE) file for details. 
+=======
+# sherajportfolio.github.io
+>>>>>>> 15641b3b64e5ab06e9a4118a7678b0f01ec60875
+
+📬 Contact
+📧 Email: sherajsharif786@gmail.com
+
+🧑‍💻 GitHub: github.com/sherajsharif
