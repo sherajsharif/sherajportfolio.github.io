@@ -28,14 +28,12 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 ✔️ Skills  
 ✔️ Education  
 ✔️ Work Experience  
-✔️ Open Source Projects Connected with GitHub  
+✔️ Projects Connected with GitHub  
 ✔️ Big Projects  
 ✔️ Achievements and Certifications 🏆  
-✔️ Blogs  
-✔️ Talks  
-✔️ Podcast  
-✔️ Contact Me  
-✔️ Twitter Timeline  
+✔️ Proficiency
+✔️ Connects
+✔️ Contact Me   
 ✔️ GitHub Profile  
 
 ---
