@@ -2,7 +2,7 @@
 
 🚀 **Live Website:** [Visit Now](https://sherajsharif.github.io/sherajportfolio.github.io/)
 
-![Portfolio Preview](./assets/screenshot.png)
+![Portfolio Preview](./screenshot.png)
 
 
 ## 🌐 A Clean, Beautiful, and Responsive Portfolio Website Built with React!
