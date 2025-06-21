@@ -1,5 +1,9 @@
 # Sheraj's Personal Portfolio ⚡️  
-Live Site: [sherajportfolio.github.io](https://sherajportfolio.github.io)
+
+🚀 **Live Website:** [Visit Now](https://sherajsharif.github.io/sherajportfolio.github.io/)
+
+![Portfolio Preview](./assets/screenshot.png)
+
 
 ## 🌐 A Clean, Beautiful, and Responsive Portfolio Website Built with React!
 
