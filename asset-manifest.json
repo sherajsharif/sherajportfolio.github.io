@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/sherajportfolio.github.io/static/css/main.316b3b6a.css",
+    "main.js": "/sherajportfolio.github.io/static/js/main.44209d5b.js",
+    "static/css/64.bba8fa55.chunk.css": "/sherajportfolio.github.io/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.6ff47638.chunk.js": "/sherajportfolio.github.io/static/js/64.6ff47638.chunk.js",
+    "static/media/plant-logo.png.png": "/sherajportfolio.github.io/static/media/plant-logo.png.0d6bd3933cd71ae4471f.png",
+    "static/media/movie-logo.png.png": "/sherajportfolio.github.io/static/media/movie-logo.png.cdcd6ea7a43c61890185.png",
+    "static/media/sales-logo.png.png": "/sherajportfolio.github.io/static/media/sales-logo.png.89c5085774e9f91ad12a.png",
+    "static/media/web-logo.png.png": "/sherajportfolio.github.io/static/media/web-logo.png.b2ce79bca9e8fc1be045.png",
+    "static/media/isro-certificate.png": "/sherajportfolio.github.io/static/media/isro-certificate.0faa4b2bf2a787dcbb47.png",
+    "static/media/Montserrat-Regular.ttf": "/sherajportfolio.github.io/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/linkedin-certificate.png": "/sherajportfolio.github.io/static/media/linkedin-certificate.ffe6920070a48057b183.png",
+    "static/media/whatsapp-logo.png": "/sherajportfolio.github.io/static/media/whatsapp-logo.6d3a219f38d11c55bec1.png",
+    "static/media/deloitte-certificate.png": "/sherajportfolio.github.io/static/media/deloitte-certificate.304d62be0841e66880e7.png",
+    "static/media/Agustina.woff": "/sherajportfolio.github.io/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/mits-logo.png": "/sherajportfolio.github.io/static/media/mits-logo.533a077355348c759f59.png",
+    "static/media/contactMail.webp": "/sherajportfolio.github.io/static/media/contactMail.298a597edb8258fc13e5.webp",
+    "static/media/manOnTable.svg": "/sherajportfolio.github.io/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/leetcode.png": "/sherajportfolio.github.io/static/media/leetcode.c79f333b12595d3eec8f.png",
+    "static/media/tata-logo.png": "/sherajportfolio.github.io/static/media/tata-logo.e5153ccfe36847acca8e.png",
+    "static/media/developerActivity.svg": "/sherajportfolio.github.io/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/skill.svg": "/sherajportfolio.github.io/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "static/media/resume.pdf": "/sherajportfolio.github.io/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/sherajportfolio.github.io/index.html",
+    "main.316b3b6a.css.map": "/sherajportfolio.github.io/static/css/main.316b3b6a.css.map",
+    "main.44209d5b.js.map": "/sherajportfolio.github.io/static/js/main.44209d5b.js.map",
+    "64.bba8fa55.chunk.css.map": "/sherajportfolio.github.io/static/css/64.bba8fa55.chunk.css.map",
+    "64.6ff47638.chunk.js.map": "/sherajportfolio.github.io/static/js/64.6ff47638.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.316b3b6a.css",
+    "static/js/main.44209d5b.js"
+  ]
+}
