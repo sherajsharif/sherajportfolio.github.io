@@ -1,0 +1,351 @@
+@import "../../_globalColor";
+
+.resume-main-div {
+  padding: 0.5rem 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
+
+.resume-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 0.3rem 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+  }
+}
+
+.resume-subtitle {
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: $subTitle;
+  opacity: 0.8;
+}
+
+.resume-content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  &:hover::before {
+    transform: scaleX(1);
+  }
+}
+
+.resume-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0.8rem;
+  color: #d69e2e;
+  font-size: 1rem;
+  box-shadow: 0 3px 10px rgba(252, 182, 159, 0.4);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.resume-description {
+  margin-bottom: 1rem;
+  
+  p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: $cardSubtitle;
+    margin: 0;
+  }
+}
+
+.resume-button-container {
+  margin-bottom: 1rem;
+}
+
+.resume-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 12px rgba(102, 126, 234, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  }
+  
+  &:active {
+    transform: translateY(-1px);
+  }
+  
+  i {
+    font-size: 0.8rem;
+  }
+}
+
+.resume-info {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.resume-info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: $cardSubtitle;
+  font-size: 0.7rem;
+  
+  i {
+    color: #667eea;
+    font-size: 0.7rem;
+  }
+}
+
+// Dark mode styles
+.dark-mode .resume-main-div {
+  background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+}
+
+.dark-mode .resume-heading {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+  &::after {
+    background: linear-gradient(90deg, #f093fb, #f5576c);
+  }
+}
+
+.dark-mode .resume-content {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  
+  &::before {
+    background: linear-gradient(90deg, #f093fb, #f5576c, #4facfe);
+  }
+}
+
+.dark-mode .resume-button {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 3px 12px rgba(240, 147, 251, 0.3);
+  
+  &:hover {
+    box-shadow: 0 5px 15px rgba(240, 147, 251, 0.4);
+    background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .resume-main-div {
+    padding: 0.3rem 0;
+    min-height: 25vh;
+  }
+  
+  .resume-heading {
+    font-size: 1.5rem;
+    
+    &::after {
+      width: 35px;
+      height: 2px;
+    }
+  }
+  
+  .resume-subtitle {
+    font-size: 0.75rem;
+    margin-bottom: 0.4rem;
+  }
+  
+  .resume-content {
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+    max-width: 350px;
+  }
+  
+  .resume-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .resume-description p {
+    font-size: 0.8rem;
+  }
+  
+  .resume-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+  
+  .resume-info {
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-heading {
+    font-size: 1.3rem;
+  }
+  
+  .resume-subtitle {
+    font-size: 0.7rem;
+  }
+  
+  .resume-content {
+    padding: 0.6rem;
+    max-width: 300px;
+  }
+  
+  .resume-info {
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+.resume-mini-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  background: transparent;
+}
+
+.resume-mini-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: auto;
+  max-width: 200px;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  }
+  
+  &:active {
+    transform: translateY(-1px);
+  }
+  
+  i {
+    font-size: 0.8rem;
+  }
+}
+
+.dark-mode .resume-mini-button {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  box-shadow: 0 4px 15px rgba(240, 147, 251, 0.3);
+  
+  &:hover {
+    box-shadow: 0 6px 20px rgba(240, 147, 251, 0.4);
+    background: linear-gradient(135deg, #f5576c 0%, #f093fb 100%);
+  }
+}
+
+// Responsive design
+@media (max-width: 768px) {
+  .resume-mini-container {
+    padding: 0.8rem 0;
+  }
+  
+  .resume-mini-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-mini-container {
+    padding: 0.6rem 0;
+  }
+  
+  .resume-mini-button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+    max-width: 160px;
+  }
+} 
