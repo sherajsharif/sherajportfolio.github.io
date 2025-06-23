@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "SHERAJ",
-  title: "Hi all, I'm Sheraj Sharif",
+  title: "Hi all, I'm Sheraj",
   subTitle: emoji(
     "I'm an enthusiastic IT professional with experience in Data Analysis, ML, chatbot development, frontend development, and Flutter development. I love turning complex problems into simple, beautiful, and intelligent solutions! 🚀"
   ),
