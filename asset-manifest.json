@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sherajportfolio.github.io/static/css/main.316b3b6a.css",
-    "main.js": "/sherajportfolio.github.io/static/js/main.87be49d6.js",
+    "main.js": "/sherajportfolio.github.io/static/js/main.393b818f.js",
     "static/css/64.bba8fa55.chunk.css": "/sherajportfolio.github.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.6ff47638.chunk.js": "/sherajportfolio.github.io/static/js/64.6ff47638.chunk.js",
     "static/media/plant-logo.png.png": "/sherajportfolio.github.io/static/media/plant-logo.png.0d6bd3933cd71ae4471f.png",
@@ -24,12 +24,12 @@
     "static/media/resume.pdf": "/sherajportfolio.github.io/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/sherajportfolio.github.io/index.html",
     "main.316b3b6a.css.map": "/sherajportfolio.github.io/static/css/main.316b3b6a.css.map",
-    "main.87be49d6.js.map": "/sherajportfolio.github.io/static/js/main.87be49d6.js.map",
+    "main.393b818f.js.map": "/sherajportfolio.github.io/static/js/main.393b818f.js.map",
     "64.bba8fa55.chunk.css.map": "/sherajportfolio.github.io/static/css/64.bba8fa55.chunk.css.map",
     "64.6ff47638.chunk.js.map": "/sherajportfolio.github.io/static/js/64.6ff47638.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.316b3b6a.css",
-    "static/js/main.87be49d6.js"
+    "static/js/main.393b818f.js"
   ]
 }
