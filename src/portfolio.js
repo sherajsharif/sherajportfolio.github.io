@@ -195,12 +195,18 @@ const workExperiences = {
       role: "Data Visualisation Intern",
       company: "TATA GROUP",
       companylogo: require("./assets/images/tata-logo.png"),
-      date: "Your Past Duration (e.g., Jan 2024 - May 2024)",
+      date: "June 2024 - March 2025,",
       desc: "As a Data Visualization Intern, I analyzed complex business datasets to uncover key trends and insights. I was responsible for developing clear and effective visualization dashboards to support internal decision-making.",
       descBullets: [
         "Analyzed business datasets to identify trends and insights for internal decision-making.",
         "Developed visualization dashboards to convey complex information clearly and effectively.",
         "Enhanced skills in Excel-based data cleaning, charting, and storytelling techniques."
+      ],
+      links: [
+        {
+          name: "Completion Certificate",
+          url: "https://drive.google.com/file/d/1MgkwVqrC-5ixeCI2ZGyRixt5adNZrv2G/view?usp=drive_link"
+        }
       ]
     },
     {
@@ -213,6 +219,12 @@ const workExperiences = {
         "Developing cross-platform mobile applications.",
         "Building and training conversational chatbots for customer engagement.",
         "Collaborating with the development team to integrate AI and ML into new features."
+      ],
+      links: [
+        {
+          name: "Offer Letter",
+          url: "https://drive.google.com/file/d/11ZKLrsP3Ze1XpO1ejYDPkJSNobTQHnN1/view?usp=drive_link"
+        }
       ]
     }
   ]
@@ -277,6 +289,21 @@ const bigProjects = {
         {
           name: "GitHub Repository",
           url: "https://github.com/sherajsharif/sherajsharif.github.io"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/skinAI.png"),
+      projectName: "SkinAI",
+      projectDesc: "AI-powered web app that uses deep learning and computer vision to detect common skin diseases from images. It offers instant predictions, disease details, and medicine recommendations with a modern, user-friendly interface. Built using Flask, React, TensorFlow, OpenCV, and more.",
+      footerLink: [
+        {
+          name: "Live Demo",
+          url: "https://skinai-disease-detection-frontend.onrender.com/"
+        },
+        {
+          name: "GitHub Repository",
+          url: "https://github.com/sherajsharif/SkinAI-Disease-Detection.git"
         }
       ]
     }

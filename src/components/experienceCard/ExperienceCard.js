@@ -78,6 +78,21 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        {cardInfo.links && cardInfo.links.length > 0 && (
+          <div className="experience-links">
+            {cardInfo.links.map((link, idx) => (
+              <a
+                key={idx}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="experience-link"
+              >
+                {link.name}
+              </a>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
