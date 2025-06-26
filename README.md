@@ -2,7 +2,7 @@
 
 🚀 **Live Website:** [Visit Now](https://sherajsharif.github.io/sherajportfolio.github.io/)
 
-![Portfolio Preview](./screenshot.png)
+<a href="https://skinai-disease-detection-frontend.onrender.com" target="_blank"> <img src="screenshot.png" alt="SkinAI Home Page" width="100%" style="border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.15);" /> </a> 
 
 
 ## 🌐 A Clean, Beautiful, and Responsive Portfolio Website Built with React!
